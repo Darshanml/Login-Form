@@ -1,0 +1,69 @@
+.login-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 60vh;
+    width: 25%;
+    border: 2px solid #dbcaca; /* Add a border to the form */
+    border-radius: 3px;
+    margin: 10rem 0 0 35rem;
+  
+    .h1{
+        justify-content: flex-start;
+    }
+  
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+    
+    label {
+        display: block;
+        font-weight: bold;
+    }
+    
+    .form-control {
+        width: 300px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%; /* Make the buttons take the full width */
+        margin-bottom: 10px; /* Add some space between the buttons */
+    }
+    
+    .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+    }
+    
+    .or-option {
+        margin: 5px 0 2rem 0;
+        font-weight: transparent;
+        opacity: 0.6;
+        justify-content: center;
+    }
+    
+    .social-login {
+        display: flex;
+        flex-direction: column; /* Stack the buttons vertically */
+        align-items: center; /* Center the buttons horizontally */
+        
+    
+        .g_id_signin{
+            margin-bottom: 1rem;
+            
+        }
+        .btn-linkedin {
+            background-color: #0077b5;
+            color: #fff;
+            border: none;
+        }
+    }
+}
