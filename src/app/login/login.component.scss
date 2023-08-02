@@ -1,3 +1,4 @@
+/* Styles for Desktop View */
 .login-box {
     display: flex;
     flex-direction: column;
@@ -8,62 +9,74 @@
     border: 2px solid #dbcaca; /* Add a border to the form */
     border-radius: 3px;
     margin: 10rem 0 0 35rem;
-  
-    .h1{
-        justify-content: flex-start;
-    }
-  
-    .form-group {
-        margin-bottom: 1.5rem;
-    }
-    
-    label {
-        display: block;
-        font-weight: bold;
-    }
-    
-    .form-control {
-        width: 300px;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-    }
-    
-    .btn {
-        padding: 10px 20px;
-        border-radius: 4px;
-        cursor: pointer;
-        width: 100%; /* Make the buttons take the full width */
-        margin-bottom: 10px; /* Add some space between the buttons */
-    }
-    
-    .btn-primary {
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-    }
-    
-    .or-option {
-        margin: 5px 0 2rem 0;
-        font-weight: transparent;
-        opacity: 0.6;
-        justify-content: center;
-    }
-    
-    .social-login {
-        display: flex;
-        flex-direction: column; /* Stack the buttons vertically */
-        align-items: center; /* Center the buttons horizontally */
+}
+
+.login-box h1 {
+    justify-content: flex-start;
+}
+
+.login-box .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.login-box label {
+    display: block;
+    font-weight: bold;
+}
+
+.login-box .form-control {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-box .btn {
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Make the buttons take the full width */
+    margin-bottom: 10px; /* Add some space between the buttons */
+}
+
+.login-box .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.login-box .or-option {
+    margin: 5px 0 2rem 0;
+    font-weight: transparent;
+    opacity: 0.6;
+    justify-content: center;
+}
+
+.login-box .social-login {
+    display: flex;
+    flex-direction: column; /* Stack the buttons vertically */
+    align-items: center; /* Center the buttons horizontally */
+}
+
+.login-box .g_id_signin {
+    margin-bottom: 1rem;
+}
+
+.login-box .btn-linkedin {
+    background-color: #0077b5;
+    color: #fff;
+    border: none;
+}
+
+/* Media Queries for Mobile View */
+@media screen and (max-width: 768px) {
+    .login-box {
+        width: 80%; /* Adjust the width for mobile view */
+        margin: 5rem auto ; /* Center the login box */
         
-    
-        .g_id_signin{
-            margin-bottom: 1rem;
-            
-        }
-        .btn-linkedin {
-            background-color: #0077b5;
-            color: #fff;
-            border: none;
-        }
+    }
+
+    .login-box .form-control {
+        width: 100%; /* Make the form controls take full width on mobile */
     }
 }
